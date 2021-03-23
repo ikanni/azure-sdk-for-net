@@ -67,7 +67,7 @@ namespace Automanage.Tests.ScenarioTests
                 targetId: vmID,
                 accountId: automanageAccountId,
                 configurationProfilePreferenceId: null, //change to the ARM id of a preference object to test preference application
-                provisioningStatus: null,
+                provisioningState: null,
                 compliance: null);
             
             var thisAssignment = new ConfigurationProfileAssignment(
